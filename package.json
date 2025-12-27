@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start -p 3002",
+    "start": "next start",
     "deploy": "bash deploy.sh",
     "deploy:local": "bash deploy-local.sh",
     "deploy:pm2": "bash deploy-pm2.sh",
