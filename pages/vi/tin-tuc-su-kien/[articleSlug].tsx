@@ -26,7 +26,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
         articleSlug,
       },
     })),
-    fallback: false,
+    fallback: 'blocking', // Cho phép render dynamic routes không có trong paths
   }
 }
 
